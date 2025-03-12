@@ -1,15 +1,15 @@
 const degrees = [
   {
-    school: 'Stanford University',
-    degree: 'M.S. Computational and Mathematical Engineering',
-    link: 'https://stanford.edu',
-    year: 2016,
+    school: 'University of Chicago',
+    degree: 'MS Computational Analysis and Public Policy',
+    link: 'https://uchicago.edu',
+    year: 2021,
   },
   {
-    school: 'University at Buffalo',
-    degree: 'B.S. Electrical Engineering, Computer Engineering',
-    link: 'https://buffalo.edu',
-    year: 2012,
+    school: 'Lahore University of Management Sciences (LUMS)',
+    degree: 'BSc Economics',
+    link: 'https://lums.edu.pk',
+    year: 2018,
   },
 ];
 
