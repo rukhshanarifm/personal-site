@@ -23,7 +23,8 @@ const SideBar = () => (
       <h2>About</h2>
       <p>
         Hi, I&apos;m Rukhshan. I am a{' '}
-        <a href="https://harris.uchicago.edu/academics/degrees/ms-computational-analysis-public-policy-mscapp">UChicago MSCAPP</a><a> graduate</a>.
+        <a href="https://harris.uchicago.edu/academics/degrees/ms-computational-analysis-public-policy-mscapp">UChicago MSCAPP </a>
+        graduate.
       </p>
       <ul className="actions">
         <li>
