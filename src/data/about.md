@@ -8,13 +8,9 @@ Born and raised in Lahore, Pakistan
 
 # I Like
 
+- Soccer/Football
 - Running
-- Skiing
-- Sailing and the sea
-- Space
-- Summer
-- [Good design](/)
-- [Photography](https://instagram.com/dangelosaurus)
+- [Photography](https://instagram.com/rukhshan)
 
 # Travel / Geography
 
