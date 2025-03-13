@@ -11,11 +11,6 @@ const data = [
     link: 'https://github.com/rukhshanarifm/personal-site/commits',
     format: (x) => dayjs(x).format('MMMM DD, YYYY'),
   },
-  {
-    label: 'Number of product/business ideas I am keeping a list of',
-    key: 'side_businesses',
-    value: '20 (increases day by day)',
-  },
 ];
 
 export default data;
