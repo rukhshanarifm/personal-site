@@ -2,57 +2,57 @@ const skills = [
   {
     title: 'Amazon Web Services',
     competency: 3,
-    category: ['Web Development', 'Tools'],
+    category: ['Cloud Computing'],
   },
   {
     title: 'PostgreSQL/SQLite3/SQL/Redshift',
     competency: 4,
-    category: ['Web Development', 'Databases', 'Languages'],
+    category: ['Databases'],
   },
   {
     title: 'D3',
     competency: 1,
-    category: ['Web Development', 'Javascript'],
+    category: ['Web Development'],
   },
   {
     title: 'Google Cloud Compute',
     competency: 3,
-    category: ['Tools', 'Web Development'],
+    category: ['Cloud Computing'],
   },
   {
     title: 'Docker',
     competency: 2,
-    category: ['Tools', 'Data Engineering'],
+    category: ['Data Engineering'],
   },
   {
     title: 'AWS ECR and ECS',
     competency: 2,
-    category: ['Tools', 'Data Engineering'],
+    category: ['Data Engineering'],
   },
   {
     title: 'Numpy',
     competency: 3,
-    category: ['Data Science', 'Data Engineering', 'Python', 'ML Engineering'],
+    category: ['Data Science'],
   },
   {
     title: 'Jupyter',
     competency: 4,
-    category: ['Data Science', 'Python'],
+    category: ['IDE'],
   },
   {
     title: 'HTML + SASS/SCSS/CSS',
     competency: 2,
-    category: ['Web Development', 'Languages'],
+    category: ['Web Development'],
   },
   {
     title: 'Python',
     competency: 4,
-    category: ['Languages', 'Python', 'ML Engineering'],
+    category: ['Languages', 'Data Engineering', 'Data Science'],
   },
   {
     title: 'R',
     competency: 4,
-    category: ['Languages'],
+    category: ['Languages', 'Data Science'],
   },
   {
     title: 'Stata',
@@ -62,7 +62,7 @@ const skills = [
   {
     title: 'Data Visualization',
     competency: 4,
-    category: ['Data Science', 'Javascript'],
+    category: ['Data Science'],
   },
   {
     title: 'GraphQL',
@@ -72,17 +72,37 @@ const skills = [
   {
     title: 'Pandas',
     competency: 5,
-    category: ['Data Engineering', 'ML Engineering', 'Python'],
+    category: ['Python', 'Data Engineering'],
   },
   {
     title: 'Matplotlib',
     competency: 3,
-    category: ['Data Engineering', 'ML Engineering', 'Python'],
+    category: ['Python'],
   },
   {
     title: 'Scikit-Learn',
     competency: 2,
-    category: ['Data Engineering', 'ML Engineering', 'Python'],
+    category: ['Data Science'],
+  },
+  {
+    title: 'GitHub Actions',
+    competency: 2,
+    category: ['Workflow Orchestration'],
+  },
+  {
+    title: 'GitHub',
+    competency: 4,
+    category: ['Version Control'],
+  },
+  {
+    title: 'AirTable',
+    competency: 4,
+    category: ['Data Management'],
+  },
+  {
+    title: 'SurveyCTO',
+    competency: 3,
+    category: ['Data Management'],
   },
 ].map((skill) => ({ ...skill, category: skill.category.sort() }));
 

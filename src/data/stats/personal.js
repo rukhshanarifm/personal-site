@@ -25,14 +25,9 @@ const data = [
     value: <Age />,
   },
   {
-    key: 'age_anxious',
-    label: 'Not a stat but ^ this age function makes me',
-    value: 'very anxious',
-  },
-  {
-    key: 'switch',
-    label: 'Times I thought of switching careers mid-debugging',
-    value: 'many',
+    key: 'countries_visited',
+    label: 'Countries Visited',
+    value: 6,
   },
 ];
 

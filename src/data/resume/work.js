@@ -21,10 +21,10 @@ const work = [
     highlights: [
       'Led the data integration and processing for a city-wide dashboard visualizing socioeconomic indicators for 100 U.S. cities, ensuring accurate and timely reporting.',
       'Co-led an initiative to monitor and track federal dataset removals under the new U.S. administration, leveraging APIs, Python, and GitHub Actions for automated detection and reporting.',
+      'Conducted geoprocessing to map water systems in relation to cities, aiming to evaluate and improve access to clean drinking water. (Python, QGIS)',
       'Built scalable ETL pipelines processing 6M+ observations from 12 data sources, achieving 80% faster processing speeds through parallel computing (Python, SQL).',
       'Optimized PostgreSQL export processes, reducing runtime by 75% with incremental updates, enabling faster and more efficient data transfers.',
       'Implemented rigorous data validation protocols, reducing errors by 70%, ensuring data integrity and reliability for visualization and reporting.',
-      'Projects that I worked on: City Data Explorer, Tracking the removal of Federal Datasets, Mapping Water Systems',
     ],
   },
   {
@@ -50,7 +50,7 @@ const work = [
     url: 'https://epic.uchicago.edu/',
     startDate: '2020-10-01',
     endDate: '2021-06-01',
-    summary: `
+    summary: `The Energy Policy Institute at Chicago (EPIC) is a research and training institute that examines the economic and social impacts of energy policies.
     `,
     highlights: [
       'Leveraged Python and Stata to develop project pipelines and provide quantitative support for studying the impact of North American fishery laws on sustainable fishing policy',
@@ -58,12 +58,12 @@ const work = [
     ],
   },
   {
-    name: 'Center for Health and Social Sciences, CheSS',
+    name: 'Center for Health and Social Sciences, CHeSS',
     position: 'Part-time Data Assistant',
     url: 'https://chess.uchicago.edu/',
     startDate: '2020-05-01',
     endDate: '2021-04-01',
-    summary: `
+    summary: `CHeSS supports interdisciplinary health research and training initiatives across the University of Chicago.
     `,
     highlights: [
       'Conducted analysis on 7TB of health insurance claims data (MS-SQL, Stata) to generate insights on comorbidity-related mortality risk to support health policy research. Implemented propensity score matching to ensure balanced datasets.',
@@ -76,7 +76,7 @@ const work = [
     url: 'https://www.cerp.org.pk/',
     startDate: '2018-07-01',
     endDate: '2019-06-30',
-    summary: `
+    summary: `CERP is an impact-driven organization that aims to improve decision-making through research, advanced analytics, capacity building, data collection, and advisory services for both public and private sectors.
     `,
     highlights: [
       'Supported the implementation of a Randomized Controlled Trial (RCT) to analyze the impact of women-only transport on female mobility, employment, and job outcomes, providing data-driven insights for policy decisions.',

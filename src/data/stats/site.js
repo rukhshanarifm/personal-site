@@ -12,14 +12,9 @@ const data = [
     format: (x) => dayjs(x).format('MMMM DD, YYYY'),
   },
   {
-    label: 'Number of failed personal website deployments',
-    key: 'failure',
-    value: '0 (kidding)',
-  },
-  {
-    label: 'Number of business ideas I am keeping a list of',
+    label: 'Number of product/business ideas I am keeping a list of',
     key: 'side_businesses',
-    value: 'yes',
+    value: '20 (increases day by day)',
   },
 ];
 
