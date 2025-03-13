@@ -16,8 +16,6 @@ const Index = () => (
           <h2>
             <Link to="/">About this site</Link>
           </h2>
-          <p> 
-          </p>
         </div>
       </header>
       <p>
