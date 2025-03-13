@@ -27,6 +27,7 @@ const Resume = () => (
   <Main
     title="Resume"
     description="Rukhshan Arif Mian's Resume."
+
   >
     <article className="post" id="resume">
       <header>
