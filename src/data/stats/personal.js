@@ -25,15 +25,14 @@ const data = [
     value: <Age />,
   },
   {
-    key: 'countries',
-    label: 'Countries visited',
-    value: 53,
-    link: 'https://www.google.com/maps/d/embed?mid=1iBBTscqateQ93pWFVfHCUZXoDu8&z=2',
+    key: 'age_anxious',
+    label: 'Not a stat but ^ this age function makes me',
+    value: 'very anxious',
   },
   {
-    key: 'location',
-    label: 'Current city',
-    value: 'Lahore, Pakistan',
+    key: 'switch',
+    label: 'Times I thought of switching careers mid-debugging',
+    value: 'many',
   },
 ];
 

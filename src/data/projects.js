@@ -1,47 +1,34 @@
 // TODO Add a couple lines about each project
 const data = [
   {
-    title: 'Nearest Dollar',
-    subtitle: '2015 BVP Hackathon',
-    image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
+    title: 'Understanding Brick Kilns in Punjab, Pakistan',
+    link: 'https://rukhshanarifm.github.io/rukhshanarifm.github.io-brick-kilns-punjab/',
+    image: '/images/projects/brick_kilns.jpg',
+    date: '2021-03-20',
     desc:
-      'Built for a social impact hackathon. '
-      + 'NearestDollar connected to your bank accounts, credit cards, '
-      + 'or debit cards and rounded up your purchases to donate the balance to '
-      + 'the charity of your choice.',
+      'I analyzed brick kiln distribution and worker demographics in Punjab,'
+      + 'Pakistan using government survey data on ~6,800 kilns. The project highlights air pollution, poor working conditions, debt bondage, and child labor, which remain major concerns.'
+      + 'By mapping kiln locations and examining age, wages, loan amounts, and access to health/education, the study provides insight into district-wise disparities and child labor prevalence across Punjab.',
   },
   {
-    title: 'Harvest',
-    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-    link: 'https://devpost.com/software/harvest',
-    image: '/images/projects/harvest.jpg',
-    date: '2015-09-20',
+    title: 'Mobile Applications: Legislation and Awareness related to Gender-Based Violence in Pakistan',
+    link: 'https://www.youtube.com/watch?v=f4RK5pVCTME',
+    image: '/images/projects/mobile_app.jpg',
+    date: '2021-06-10',
     desc:
-      'Won ~ $7000 in prizes for an advanced, low cost monitoring solution '
-      + 'for crops. Harvest was designed to catch irrigation leaks, overwatering, '
-      + 'and nutrient deficiencies at an affordable price for the developing world.',
+      'I created a prototype in Xcode to display legislation related to Gender-Based Violence (GBV) in Pakistan, '
+      + 'sourced from UN Women. The app includes emergency helplines for Lahore, video resources on GBV, '
+      + 'and an emergency call button. While limited by accessibility issues (no Urdu translation, low smartphone penetration, and iOS exclusivity), it serves as a basic framework for raising awareness.',
   },
   {
-    title: 'Space Potato',
-    subtitle: 'A kickstarter funded potato powered weather balloon.',
-    link: 'http://www.spacepotato.org',
-    image: '/images/projects/spacepotato.jpg',
-    date: '2015-06-28',
+    title: 'Mapping gender-based violence in Pakistan',
+    link: 'https://github.com/rukhshanarifm/LSC-Project',
+    image: '/images/projects/mapping_gbv.jpg',
+    date: '2020-12-15',
     desc:
-      'Launched a potato battery powered weather balloon with two cameras '
-      + 'and gps transponder. Resulting photos were published in a coffee table book. '
-      + 'You can email me for a copy.',
-  },
-  {
-    title: 'Cat Detector',
-    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-    image: '/images/projects/catdetector.jpg',
-    date: '2015-05-15',
-    desc:
-      'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
-      + 'Over 60,000 cats were classified before server bills made the project too expensive '
-      + 'to continue hosting.',
+      'I developed a Gender-Based Violence (GBV) mapping project in Pakistan using web scraping'
+      + 'parallel computing (Dask), and NLP to analyze news articles from Dawn and The News.'
+      + 'The project automates data collection, extracts article features, and performs exploratory analysis, geographic mapping, and topic modeling to uncover patterns in GBV-related incidents. While currently limited to English-language sources, the framework can be expanded with OCR for Urdu newspapers and scalable cloud deployment.',
   },
 ];
 

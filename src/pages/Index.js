@@ -25,12 +25,14 @@ const Index = () => (
         <Link to="/resume">resume</Link>, <Link to="/projects">projects</Link>,{' '}
         view <Link to="/stats">site statistics</Link>, or{' '}
         <Link to="/contact">contact</Link> me.
+        With experience as an independent contractor, I am open to globally remote opportunities,
+        including short-term projects, long-term contracts, and consulting roles.
       </p>
-      <p>
+      {/* <p>
         {' '}
         Source available{' '}
-        <a href="https://github.com/mldangelo/personal-site">here</a>.
-      </p>
+        <a href="https://github.com/rukhshanarifm/personal-site">here</a>.
+      </p> */}
     </article>
   </Main>
 );

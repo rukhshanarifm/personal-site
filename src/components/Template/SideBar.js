@@ -9,7 +9,7 @@ const SideBar = () => (
   <section id="sidebar">
     <section id="intro">
       <Link to="/" className="logo">
-        <img src={`${PUBLIC_URL}/images/me.jpg`} alt="" />
+        <img src={`${PUBLIC_URL}/images/me.jpg`} alt="Profile" />
       </Link>
       <header>
         <h2>Rukhshan Arif Mian</h2>
@@ -17,14 +17,13 @@ const SideBar = () => (
           <a href="mailto:rukhshanarifm@gmail.com">rukhshanarifm@gmail.com</a>
         </p>
       </header>
-    </section>
-
-    <section className="blurb">
-      <h2>About</h2>
       <p>
         Hi, I&apos;m Rukhshan. I am a{' '}
         <a href="https://harris.uchicago.edu/academics/degrees/ms-computational-analysis-public-policy-mscapp">UChicago MSCAPP </a>
-        graduate.
+        graduate. I help organizations assess and optimize
+        their data capacity for better decision-making.
+        Most recently, I worked with the Bloomberg Center for Government Excellence (GovEx),
+        supporting data-driven initiatives for local governments in the United States.
       </p>
       <ul className="actions">
         <li>
@@ -43,9 +42,6 @@ const SideBar = () => (
 
     <section id="footer">
       <ContactIcons />
-      <p className="copyright">
-        &copy; Michael D&apos;Angelo <Link to="/">mldangelo.com</Link>.
-      </p>
     </section>
   </section>
 );
