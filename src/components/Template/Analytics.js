@@ -1,25 +1,26 @@
 import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
+import ReactGA from 'react-ga';
+
+const { NODE_ENV, REACT_APP_GA_TRACKING_ID } = process.env;
+
+if (NODE_ENV === 'production') {
+  ReactGA.initialize(REACT_APP_GA_TRACKING_ID);
+}
 
 const Analytics = () => {
+  const { pathname } = useLocation();
+
   useEffect(() => {
-    // Inject Google Analytics script
-    const script = document.createElement('script');
-    script.src = "https://www.googletagmanager.com/gtag/js?id=G-SYL4WEMFJZ";
-    script.async = true;
-    document.head.appendChild(script);
+    if (NODE_ENV === 'production') {
+      ReactGA.set({
+        page: pathname,
+      });
+      ReactGA.pageview(pathname);
+    }
+  }, [pathname]);
 
-    // Inject Google Analytics configuration
-    const script2 = document.createElement('script');
-    script2.innerHTML = `
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-SYL4WEMFJZ');
-    `;
-    document.head.appendChild(script2);
-  }, []);
-
-  return null; // This component doesn't render anything
+  return null;
 };
 
 export default Analytics;
