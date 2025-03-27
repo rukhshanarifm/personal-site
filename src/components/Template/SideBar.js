@@ -42,6 +42,9 @@ const SideBar = () => (
 
     <section id="footer">
       <ContactIcons />
+      <p className="copyright">
+        &copy; Code sourced from mldangelo<Link to="/">mldangelo.com</Link>
+      </p>
     </section>
   </section>
 );
