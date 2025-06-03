@@ -17,6 +17,7 @@ const work = [
     position: 'Data Consultant',
     url: 'https://govex.jhu.edu/',
     startDate: '2023-06-12',
+    endDate: '2025-02-28',
     summary: 'GovEx helps governments use data and AI creatively and effectively to improve the lives of residents across the United States and around the globe.',
     highlights: [
       'Led the data integration and processing for a city-wide dashboard visualizing socioeconomic indicators for 100 U.S. cities, ensuring accurate and timely reporting.',
