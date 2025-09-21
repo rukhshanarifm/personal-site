@@ -1,6 +1,14 @@
 // TODO Add a couple lines about each project
 const data = [
   {
+    title: 'Stata Training for High School Students - CERP',
+    link: '',
+    image: '/images/projects/stata_training.jpg',
+    date: '2025-03-15',
+    desc:
+      'I designed and delivered a hands-on Stata training for 20 high school students across Pakistan in partnership with the Center for Economic Research in Pakistan (CERP). The program focused on data cleaning, statistical analysis, and visualization, using engaging content to make data skills accessible and relevant for young learners.',
+  },
+  {
     title: 'Understanding Brick Kilns in Punjab, Pakistan',
     link: 'https://rukhshanarifm.github.io/rukhshanarifm.github.io-brick-kilns-punjab/',
     image: '/images/projects/brick_kilns.jpg',

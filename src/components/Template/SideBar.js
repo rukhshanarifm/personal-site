@@ -22,8 +22,6 @@ const SideBar = () => (
         <a href="https://harris.uchicago.edu/academics/degrees/ms-computational-analysis-public-policy-mscapp">UChicago MSCAPP </a>
         graduate. I help organizations assess and optimize
         their data capacity for better decision-making.
-        Most recently, I worked with the Bloomberg Center for Government Excellence (GovEx),
-        supporting data-driven initiatives for local governments in the United States.
       </p>
       <ul className="actions">
         <li>
