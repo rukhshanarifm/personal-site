@@ -87,19 +87,17 @@ describe('renders the app', () => {
     expect(window.location.pathname).toBe('/projects');
   });
 
-  it('can navigate to /stats', async () => {
-    expect.assertions(5);
-    const contactLink = document.querySelector(
+  it('can navigate to /how-can-i-help-you', async () => {
+    expect.assertions(3);
+    const helpLink = document.querySelector(
       '#header > nav > ul > li:nth-child(4) > a',
     );
-    expect(contactLink).toBeInTheDocument();
+    expect(helpLink).toBeInTheDocument();
     await act(async () => {
-      await contactLink.click();
+      await helpLink.click();
     });
-    expect(document.title).toContain('Stats |');
-    expect(window.location.pathname).toBe('/stats');
-    expect(global.fetch).toHaveBeenCalledTimes(1);
-    expect(jsonMock).toHaveBeenCalledTimes(1);
+    expect(document.title).toContain('How can I help you? |');
+    expect(window.location.pathname).toBe('/how-can-i-help-you');
   });
 
   it('can navigate to /contact', async () => {
