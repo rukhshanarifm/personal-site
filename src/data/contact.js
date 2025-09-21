@@ -12,11 +12,6 @@ const data = [
     icon: faGithub,
   },
   {
-    link: 'https://www.instagram.com/rukhshan/',
-    label: 'Instagram',
-    icon: faInstagram,
-  },
-  {
     link: 'https://www.linkedin.com/in/rukhshan-arif-mian-49ba07125/',
     label: 'LinkedIn',
     icon: faLinkedinIn,
@@ -25,6 +20,11 @@ const data = [
     link: 'mailto:rukhshanarifm@gmail.com',
     label: 'Email',
     icon: faEnvelope,
+  },
+  {
+    link: 'https://www.instagram.com/rukhshan/',
+    label: 'Instagram',
+    icon: faInstagram,
   },
 ];
 

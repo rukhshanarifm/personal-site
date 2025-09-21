@@ -19,11 +19,9 @@ const Index = () => (
         </div>
       </header>
       <p>
-        {' '}
-        Welcome to my personal website! Please feel free to read more{' '}
-        <strong><Link to="/about">about me</Link></strong>, or you can check out my{' '}
+        Welcome to my personal website! Please feel free to read more about me, or you can check out my{' '}
         <strong><Link to="/resume">resume</Link></strong>, <strong><Link to="/projects">projects</Link></strong>,{' '}
-        view random<strong><Link to="/stats"> statistics</Link></strong>, or{' '}
+        view random statistics, or{' '}
         <strong><Link to="/contact">contact</Link></strong> me.
         With experience as an independent contractor, I am open to globally remote opportunities,
         including short-term projects, long-term contracts, and consulting roles.

@@ -13,7 +13,8 @@
  */
 const work = [
   {
-    name: 'Independent Contractor',
+    name: 'Freelance',
+    position: 'Data Consultant',
     startDate: '2025-03-01',
     endDate: '',
     summary: 'I collaborate with organizations to strengthen their data capabilities by designing analytics solutions, building reporting pipelines, and delivering technical training to teams.',

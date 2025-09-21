@@ -55,7 +55,6 @@
   "reactSnap": {
     "include": [
       "/",
-      "/about",
       "/resume",
       "/projects",
       "/how-can-i-help-you",
