@@ -19,6 +19,8 @@ const work = [
     endDate: '',
     summary: 'I collaborate with organizations to strengthen their data capabilities by designing analytics solutions, building reporting pipelines, and delivering technical training to teams.',
     highlights: [
+      'Beaj Education (ongoing): Designing and implementing a data warehouse infrastructure to support product analytics and leadership reporting for this non-profit startup building AI-powered skill development solutions. Creating evaluation datasets to assess AI model performance in audio scoring and contributing to grant writing efforts.',
+      'International Growth Centre (IGC), London School of Economics (ongoing): Supporting Pakistan\'s Prime Minister\'s Office on reform initiatives by building integrated dashboards on tax revenue and power sector metrics that synthesize government data with current research. Developing AI-powered summarization tools using BART (HuggingFace) to distill newspaper articles and research papers for policymakers, and scoping data infrastructure requirements for a permanent policy and data unit.',
       'Designed and delivered a Stata training for 20 high school students from across Pakistan in collaboration with the Center for Economic Research in Pakistan (CERP), guiding them through hands-on exercises including data cleaning and analysis. Developed engaging, relatable content to make statistical analysis accessible.',
       'Automated a comprehensive reporting system for a small-to-medium enterprise, enabling accurate daily performance tracking and streamlining business decision-making.',
     ],
@@ -28,10 +30,10 @@ const work = [
     position: 'Data Analyst',
     url: 'https://www.linkedin.com/company/waseela-pakistan/about/',
     startDate: '2025-06-23',
-    endDate: '',
+    endDate: '2025-10-31',
     summary: 'Waseela empowers rural communities to drive Pakistan’s economy, using data-driven, research-backed projects to tackle key challenges and unlock sustainable growth.',
     highlights: [
-      'Partnered with the organization&apos;s president to design and execute a data strategy across four business verticals, building dashboards and reporting pipelines to inform key revenue decisions.',
+      'Partnered with the organization’s leadership to design and execute a data strategy across four business verticals, building dashboards and reporting pipelines to inform key revenue decisions.',
       'Built dashboards for the Retail business to monitor revenue growth, profit margins, and inventory turnover, leveraging Python, SQL, Excel, and Metabase.',
       'Developed a Buying dashboard for the demand planning team, enabling visibility into stock value at the item, warehouse, and category level across 11 warehouses (SQL, Python, Frappe).',
       'Created a pricing calculator module in ERPNext using Python and JavaScript for the business team to understand how they could price specific items by category, leading to improved pricing decisions and reducing losses. Offered visibility on current prices, costs, and available inventory.',
