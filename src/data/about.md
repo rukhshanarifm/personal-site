@@ -1,3 +1,7 @@
 # Intro
 I’m Rukhshan, a data consultant based in Lahore, Pakistan. I specialize in leveraging quantitative tools to drive informed decision-making across diverse sectors. My recent experience includes working as a Data Analyst at an agri-tech startup, as well as collaborating with non-profit and public sector agencies in the US to deliver impactful data analytics solutions. I thrive on tackling challenging problems and I am committed to helping organizations unlock the full potential of their data. In my free time, you’ll find me on the football field, experimenting with new recipes in the kitchen, or planning my next travel adventure.
 
+
+I am eligible for the [UK High Potential Individual visa](https://www.gov.uk/high-potential-individual-visa), allowing me to work 
+anywhere in the UK for 2 years without sponsorship (based on my Master's degree 
+from the University of Chicago).
