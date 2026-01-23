@@ -30,9 +30,9 @@ const work = [
     url: 'https://www.linkedin.com/company/waseela-pakistan/about/',
     startDate: '2025-06-23',
     endDate: '2025-10-31',
-    summary: 'Waseela empowers rural communities to drive Pakistan’s economy, using data-driven, research-backed projects to tackle key challenges and unlock sustainable growth.',
+    summary: 'Waseela empowers rural communities to drive Pakistan\'s economy, using data-driven, research-backed projects to tackle key challenges and unlock sustainable growth.',
     highlights: [
-      'Partnered with the organization’s leadership to design and execute a data strategy across four business verticals, building dashboards and reporting pipelines to inform key revenue decisions.',
+      'Partnered with the organization\'s leadership to design and execute a data strategy across four business verticals, building dashboards and reporting pipelines to inform key revenue decisions.',
       'Built dashboards for the Retail business to monitor revenue growth, profit margins, and inventory turnover, leveraging Python, SQL, Excel, and Metabase.',
       'Developed a Buying dashboard for the demand planning team, enabling visibility into stock value at the item, warehouse, and category level across 11 warehouses (SQL, Python, Frappe).',
       'Created a pricing calculator module in ERPNext using Python and JavaScript for the business team to understand how they could price specific items by category, leading to improved pricing decisions and reducing losses. Offered visibility on current prices, costs, and available inventory.',
