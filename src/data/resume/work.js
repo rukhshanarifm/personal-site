@@ -22,7 +22,6 @@ const work = [
       'Beaj Education (ongoing): Designing and implementing a data warehouse infrastructure to support product analytics and leadership reporting for this non-profit startup building AI-powered skill development solutions. Creating evaluation datasets to assess AI model performance in audio scoring and contributing to grant writing efforts.',
       'International Growth Centre (IGC), London School of Economics (ongoing): Supporting Pakistan\'s Prime Minister\'s Office on reform initiatives by building integrated dashboards on tax revenue and power sector metrics that synthesize government data with current research. Developing AI-powered summarization tools using BART (HuggingFace) to distill newspaper articles and research papers for policymakers, and scoping data infrastructure requirements for a permanent policy and data unit.',
       'Designed and delivered a Stata training for 20 high school students from across Pakistan in collaboration with the Center for Economic Research in Pakistan (CERP), guiding them through hands-on exercises including data cleaning and analysis. Developed engaging, relatable content to make statistical analysis accessible.',
-      'Automated a comprehensive reporting system for a small-to-medium enterprise, enabling accurate daily performance tracking and streamlining business decision-making.',
     ],
   },
   {
