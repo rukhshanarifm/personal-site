@@ -40,8 +40,12 @@ const Index = () => (
         <strong><Link to="/contact">contact</Link></strong> me.
         I am open to globally remote opportunities,
         including short-term projects, long-term contracts, and consulting roles.
-        I am also eligible for the <a href="https://www.gov.uk/high-potential-individual-visa" target="_blank" rel="noopener noreferrer">UK High Potential Individual visa</a>, allowing me to work
-        anywhere in the UK for 2 years without sponsorship (based on my Master&apos;s degree from the University of Chicago).
+        I am also eligible for the{' '}
+        <a href="https://www.gov.uk/high-potential-individual-visa" target="_blank" rel="noopener noreferrer">
+          UK High Potential Individual visa
+        </a>
+        , allowing me to work anywhere in the UK for 2 years without sponsorship
+        (based on my Master&apos;s degree from the University of Chicago).
       </p>
       {/* <p>
         {' '}
