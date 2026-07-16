@@ -164,6 +164,13 @@ h3 { font-size: 16.5px; font-weight: 600; margin-bottom: 6px; }
 
 h3 a { color: inherit; }
 
+.wip {
+  font-weight: 400;
+  font-size: 13px;
+  color: var(--muted);
+  font-style: italic;
+}
+
 /* ————— Two-column feature lists ————— */
 .cols {
   display: grid;
